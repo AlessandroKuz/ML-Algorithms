@@ -88,8 +88,10 @@ def gradient_descent(x, y, w_in, b_in, alpha, num_iters, cost_function, gradient
       """
     
     # An array to store cost J and w's at each iteration primarily for graphing later
-    J_history = []
-    p_history = []
+    if plot_points:
+      J_history = []
+      p_history = []
+    
     b = b_in
     w = w_in
     
