@@ -4,7 +4,7 @@ The regularization term is the sum of the squares of the weights multiplied by a
 The regularization parameter lambda_ controls the amount of regularization.
 If lambda_ is too large, the model will be too constrained and will not fit the data well,
 on the other hand if lambda_ is too small, the model will not be regularized and may overfit the training data.
-The regularization term does not include the bias term b (this is a common method, as regulazing b leads to very tiny changes).
+The regularization term does not include the bias term b (this is standard practice, as regulazing b leads to very tiny changes).
 The cost function for linear regression with regularization is:
 J(w,b) = (1/2m) * sum((f_wb_i - y_i)^2) + (lambda_/(2m)) * sum(w_j^2)
 where:
