@@ -1,0 +1,2 @@
+This Section is based on the "Machine Learning From Scratch In Python - Full Course With 12 Algorithms (5 HOURS)" video (https://www.youtube.com/watch?v=rLOyrWV8gmA).
+I'm coding along with the video and adding my own comments to the code to build a deeper understanding of the algorithms.
