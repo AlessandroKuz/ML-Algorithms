@@ -1,0 +1,2 @@
+This Section is based on the "Supervised Machine Learning: Regression and Classification" course on Coursera by Deeplearning.AI
+part of the Machine Learning Specialization.
